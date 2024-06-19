@@ -31,7 +31,7 @@ def roman_to_int(s):
             i += 1
     return total
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     number = 1994
     s = "MCMXCIV"
 
