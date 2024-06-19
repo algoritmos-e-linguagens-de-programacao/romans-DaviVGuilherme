@@ -1,9 +1,9 @@
 from romans import int_to_roman, roman_to_int
 def test_int_to_roman():
-    assert int_to_roman(1) == "I"
+    assert int_to_roman(1) == "sym"
 
 def test_roman_to_int():
-    assert roman_to_int("I") == 1
+    assert roman_to_int("I") == num
     
 def printRomano(number):
     num = [1, 4, 5, 9, 10, 40, 50, 90,
